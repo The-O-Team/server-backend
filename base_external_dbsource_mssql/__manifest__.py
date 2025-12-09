@@ -14,7 +14,7 @@
     "external_dependencies": {
         "python": [
             "pymssql<=2.2.5 ; python_version <= '3.10'",
-            "pymssql<=2.2.8 ; python_version > '3.10'",
+            "pymssql==2.3.11; python_version > '3.10'",
             "sqlalchemy",
         ]
     },
