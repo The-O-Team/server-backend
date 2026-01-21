@@ -13,8 +13,7 @@
     "depends": ["base_external_dbsource"],
     "external_dependencies": {
         "python": [
-            "pymssql<=2.2.5 ; python_version <= '3.10'",
-            "pymssql==2.3.10",
+            "pymssql",
             "sqlalchemy",
         ]
     },
